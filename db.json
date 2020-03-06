@@ -1,888 +1,499 @@
 {
-  "Projects": [
-    {
-      "projectName": "M Mart",
-      "projectIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABpJREFUeNpi/L/mDwNxgImBaDCqdFQpQIABAFsLAsMWxnKxAAAAAElFTkSuQmCC",
-      "comment": "M mart.",
-      "createdDate": "27/9/2019",
-      "createdBy": "Admin",
-      "progress": 85,
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "saveAndCreateNew": false,
-      "id": 1
-    },
-    {
-      "projectName": "N-Mart1",
-      "projectIconPath": "",
-      "comment": "This project is for N-Mart.",
-      "createdDate": "28/9/2019",
-      "createdBy": "Admin",
-      "progress": 70,
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "saveAndCreateNew": false,
-      "id": 2
-    }
-  ],
-  "DatasetMaster": [
-    {
-      "projectId": 1,
-      "datasetName": "Cold Storage Sections",
-      "datasetType": "Video",
-      "comment": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
-      "status": "Annotated",
-      "createdDate": "30/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 11,
-      "timeForQualityAssurance": 7,
-      "attributeAssigmedValue": 3109,
-      "objectAnnotatedValue": 1005,
-      "framesProcesedValue": 7421,
-      "id": 1
-    },
-    {
-      "projectId": 1,
-      "datasetName": "Grocery Section",
-      "datasetType": "Image",
-      "comment": "This type of dataset is generate for to store grocery images.",
-      "status": "Inprogress",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 6,
-      "timeForQualityAssurance": 11,
-      "attributeAssigmedValue": 3380,
-      "objectAnnotatedValue": 6986,
-      "framesProcesedValue": 8393,
-      "id": 2
-    },
-    {
-      "projectId": 1,
-      "datasetName": "Handloom Section",
-      "datasetType": "Video",
-      "comment": "Handloom Section is type of dataset generated for videos",
-      "status": "Pending",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 5,
-      "timeForQualityAssurance": 3,
-      "attributeAssigmedValue": 5477,
-      "objectAnnotatedValue": 9574,
-      "framesProcesedValue": 2864,
-      "id": 3
-    },
-    {
-      "projectId": 2,
-      "datasetName": "Food Section",
-      "datasetType": "Food Section dataset i",
-      "comment": "Video",
-      "status": "Pending",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 6,
-      "timeForQualityAssurance": 8,
-      "attributeAssigmedValue": 3480,
-      "objectAnnotatedValue": 115,
-      "framesProcesedValue": 9374,
-      "id": 5
-    },
-    {
-      "projectId": 2,
-      "datasetName": "Cloth Section",
-      "datasetType": "Video",
-      "comment": "Cloth Section dataset is created for cloth images",
-      "status": "Annotated",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 6,
-      "timeForQualityAssurance": 11,
-      "attributeAssigmedValue": 5015,
-      "objectAnnotatedValue": 7717,
-      "framesProcesedValue": 6194,
-      "id": 6
-    },
-    {
-      "projectId": 2,
-      "datasetName": "Demo Section",
-      "datasetType": "Image",
-      "comment": "Demo ",
-      "status": "Inprogress",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0,
-      "deletedBy": "",
-      "timeForAnnotation": 4,
-      "timeForQualityAssurance": 4,
-      "attributeAssigmedValue": 3112,
-      "objectAnnotatedValue": 8301,
-      "framesProcesedValue": 4437,
-      "id": 7
-    }
-  ],
-  "DatasetDetails": [
+  "Model": [
     {
       "id": 1,
-      "datasetMasterId": 1,
-      "fileName": "dataset1.1",
-      "uploadFilePath": "./page1.jpg",
-      "comment": "Test",
-      "fileSize": 800,
-      "fileResolution": "700 X 960",
-      "fileType": "mov",
-      "framesPerSec": 0,
-      "noOfFrames": 30000,
-      "convertedToFrames": 15000,
-      "convertedFrameType": "png",
-      "convertedFramePerSec": 2,
-      "createdDate": "15/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": "",
-      "deletedBy": ""
+      "modelId": 1,
+      "modelName": "IMITATE_TEXTURE",
+      "maxInputsize": 520,
+      "maxImaegeSize": 5
     },
     {
       "id": 2,
-      "datasetMasterId": 1,
-      "fileName": "dataset1.2",
-      "uploadFilePath": "./page2.jpg",
-      "comment": "Test",
-      "fileSize": 700,
-      "fileResolution": "700 X 960",
-      "fileType": "mov",
-      "framesPerSec": 0,
-      "noOfFrames": 10000,
-      "convertedToFrames": 3333,
-      "convertedFrameType": "png",
-      "convertedFramePerSec": 3,
-      "createdDate": "16/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": "",
-      "deletedBy": ""
+      "modelId": 2,
+      "modelName": "REVAMP_LOWEREAR",
+      "maxInputsize": 320,
+      "maxImaegeSize": 2
     },
     {
-      "datasetMasterId": 1,
-      "fileName": "dataset1.3",
-      "uploadFilePath": "download.jpg",
-      "comment": "Image",
-      "fileSize": 10812,
-      "fileResolution": "700 X 960",
-      "fileType": "mov",
-      "framesPerSec": 0,
-      "noOfFrames": 7000,
-      "convertedToFrames": 3500,
-      "convertedFrameType": "png",
-      "convertedFramePerSec": 2,
-      "createdDate": "15/92019",
-      "createdBy": "Admin",
+      "modelId": "1212",
+      "modelName": "MY MODEL",
+      "maxInputsize": "12",
+      "maxImaegeSize": "4",
+      "inputImages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outputImages": [
+        1,
+        2
+      ],
       "id": 3
     },
     {
-      "datasetMasterId": 2,
-      "fileName": "E",
-      "uploadFilePath": "E.png",
-      "comment": "dddddddddd",
-      "fileSize": "0.0024",
-      "fileResolution": "700 X 920",
-      "fileType": "image/png",
-      "framesPerSec": 0,
-      "noOfFrames": 0,
-      "createdDate": "15/9/2019",
-      "createdBy": "Admin",
+      "modelId": "111",
+      "modelName": "Trushant",
+      "maxInputsize": "12",
+      "maxImaegeSize": "5",
+      "inputImages": [
+        1,
+        2,
+        3
+      ],
+      "outputImages": [
+        1,
+        2
+      ],
       "id": 4
     },
     {
-      "datasetMasterId": 6,
-      "fileName": "Hydrangeas",
-      "uploadFilePath": "Hydrangeas.jpg",
-      "comment": "635",
-      "fileSize": "0.5676",
-      "fileResolution": "700 X 920",
-      "fileType": "image/jpeg",
-      "framesPerSec": 0,
-      "noOfFrames": 0,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin",
+      "modelId": "111",
+      "modelName": "Trushant",
+      "maxInputsize": "12",
+      "maxImaegeSize": "5",
+      "inputImages": [
+        1,
+        2,
+        3
+      ],
+      "outputImages": [
+        1,
+        2
+      ],
       "id": 5
     },
     {
-      "datasetMasterId": 6,
-      "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-      "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-      "comment": "cvc",
-      "fileSize": "21.2624",
-      "fileResolution": "700 X 920",
-      "fileType": "video/webm",
-      "framesPerSec": 0,
-      "noOfFrames": 30000,
-      "convertedToFrames": 0,
-      "convertedFrameType": "",
-      "convertedFramePerSec": 0,
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
+      "modelId": "1",
+      "modelName": "t",
+      "maxInputsize": "2",
+      "maxImaegeSize": "1",
+      "inputImages": [
+        1,
+        2,
+        3
+      ],
+      "outputImages": [
+        1,
+        2
+      ],
+      "id": 6
+    },
+    {
+      "modelId": "1",
+      "modelName": "t",
+      "maxInputsize": "2",
+      "maxImaegeSize": "1",
+      "inputImages": [
+        1,
+        2,
+        3
+      ],
+      "outputImages": [
+        1,
+        2
+      ],
+      "id": 7
+    },
+    {
+      "modelId": "1212",
+      "modelName": "Test",
+      "maxInputsize": "12",
+      "maxImaegeSize": "2",
+      "inputImages": [
+        1,
+        2
+      ],
+      "outputImages": [
+        1
+      ],
+      "id": 8
+    },
+    {
+      "modelId": "3",
+      "modelName": "demo",
+      "maxInputsize": "3",
+      "maxImaegeSize": "1",
+      "inputImages": [
+        3,
+        4,
+        6
+      ],
+      "outputImages": [
+        2,
+        1
+      ],
+      "id": 9
+    },
+    {
+      "modelId": "22222",
+      "modelName": "akshay",
+      "maxInputsize": "12",
+      "maxImaegeSize": "4",
+      "inputImages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "outputImages": [
+        2
+      ],
+      "id": 10
+    },
+    {
+      "modelId": "44444",
+      "modelName": "e",
+      "maxInputsize": "3",
+      "maxImaegeSize": "1",
+      "inputImages": [
+        1,
+        2
+      ],
+      "outputImages": [
+        2,
+        1,
+        3,
+        4,
+        5
+      ],
+      "id": 11
+    },
+    {
+      "modelId": "33333",
+      "modelName": "Texture",
+      "maxInputsize": "12",
+      "maxImaegeSize": "3",
+      "inputImages": [
+        1,
+        3,
+        6
+      ],
+      "outputImages": [
+        2
+      ],
+      "id": 12
+    }
+  ],
+  "InputImagesDetails": [
+    {
+      "id": 1,
+      "modelId": 1,
+      "inputImagesTypeId": 1,
+      "imgPath": "D:/InputImage/1.jpg"
+    },
+    {
+      "id": 2,
+      "modelId": 1,
+      "inputImagesTypeId": 2,
+      "imgPath": "D:/InputImage/2.jpg"
+    },
+    {
+      "id": 3,
+      "modelId": 2,
+      "inputImagesTypeId": 3,
+      "imgPath": "D:/InputImage/3.jpg"
+    }
+  ],
+  "OutputImagesDetails": [
+    {
+      "id": 1,
+      "modelId": 1,
+      "outputImagesTypeId": 1,
+      "imgPath": "D:/OutputImage/1.jpg"
+    },
+    {
+      "id": 2,
+      "modelId": 1,
+      "outputImagesTypeId": 2,
+      "imgPath": "D:/OutputImage/2.jpg"
+    },
+    {
+      "id": 3,
+      "modelId": 2,
+      "outputImagesTypeId": 3,
+      "imgPath": "D:/OutputImage/1.jpg"
+    }
+  ],
+  "InputImagesType": [
+    {
+      "id": 1,
+      "name": "ORIGINAL IMAGE"
+    },
+    {
+      "id": 2,
+      "name": "SEGMENTED IMAGE"
+    },
+    {
+      "id": 3,
+      "name": "TEXTURE IMAGE"
+    },
+    {
+      "id": 4,
+      "name": "SKETCH IMAGE"
+    },
+    {
+      "name": "HH",
+      "id": 5
+    }
+  ],
+  "OutputImagesType": [
+    {
+      "id": 1,
+      "name": "INTERMIDATE IMAGE"
+    },
+    {
+      "id": 2,
+      "name": "FINAL IMAGE"
+    },
+    {
+      "name": "a",
+      "id": 3
+    },
+    {
+      "name": "B",
+      "id": 4
+    },
+    {
+      "name": "c",
+      "id": 5
+    }
+  ],
+  "FAQ": [
+    {
+      "id": 1,
+      "modelId": 1,
+      "question": "Maximum Image Size?",
+      "answer": "512X512"
+    },
+    {
+      "id": 2,
+      "modelId": 1,
+      "question": "Minimum Image Size?",
+      "answer": "512X512"
+    },
+    {
+      "id": 3,
+      "modelId": 1,
+      "question": "Number of images can upload?",
+      "answer": "unlimited"
+    },
+    {
+      "id": 4,
+      "modelId": 2,
+      "question": "Can we change the size of image",
+      "answer": "Yes"
+    },
+    {
+      "question": "KOK",
+      "answer": "PA",
+      "modelId": "1212",
+      "id": 5
+    },
+    {
+      "question": "F",
+      "answer": "C",
+      "modelId": "1212",
+      "id": 6
+    },
+    {
+      "question": "Q",
+      "answer": "A",
+      "modelId": "1212",
+      "id": 7
+    },
+    {
+      "question": "d",
+      "answer": "s",
+      "modelId": "1",
+      "id": 8
+    },
+    {
+      "question": "a",
+      "answer": "c",
+      "modelId": "1",
+      "id": 9
+    },
+    {
+      "question": "d",
+      "answer": "s",
+      "modelId": "1",
+      "id": 10
+    },
+    {
+      "question": "a",
+      "answer": "c",
+      "modelId": "1",
+      "id": 11
+    },
+    {
+      "question": "S",
+      "answer": "D",
+      "modelId": "1212",
+      "id": 12
+    },
+    {
+      "question": "s",
+      "answer": "d",
+      "modelId": "3",
+      "id": 13
+    },
+    {
+      "question": "rrr",
+      "answer": "vcccc",
+      "modelId": "22222",
+      "id": 14
+    },
+    {
+      "question": "da",
+      "answer": "dfsdf",
+      "modelId": "44444",
       "id": 15
     },
     {
-      "datasetMasterId": 6,
-      "fileName": "Chiangmai-Hostel.png",
-      "uploadFilePath": "Chiangmai-Hostel.png",
-      "comment": "dd",
-      "fileSize": "0.6536",
-      "fileResolution": "700 X 920",
-      "fileType": "image/png",
-      "framesPerSec": 0,
-      "noOfFrames": 30000,
-      "convertedToFrames": 0,
-      "convertedFrameType": "",
-      "convertedFramePerSec": 0,
-      "createdDate": "26/9/2019",
-      "createdBy": "Admin",
+      "question": "sdasd",
+      "answer": "adAD",
+      "modelId": "33333",
       "id": 16
-    },
-    {
-      "datasetMasterId": 11,
-      "fileName": "chart.png",
-      "uploadFilePath": "chart.png",
-      "comment": "chart",
-      "fileSize": "0.0275",
-      "fileResolution": "700 X 920",
-      "fileType": "image/png",
-      "framesPerSec": 0,
-      "noOfFrames": 0,
-      "createdDate": "30/9/2019",
-      "createdBy": "Admin",
-      "id": 17
-    },
-    {
-      "datasetMasterId": 2,
-      "fileName": "ff",
-      "uploadFilePath": "chart.png",
-      "comment": "cc",
-      "fileSize": "0.0275",
-      "fileResolution": "700 X 920",
-      "fileType": "image/png",
-      "framesPerSec": 0,
-      "noOfFrames": 0,
-      "createdDate": "30/9/2019",
-      "createdBy": "Admin",
-      "id": 19
     }
   ],
-  "DatasetViewFrame": [
+  "Gallery": [
     {
       "id": 1,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/G.png?alt=media&token=d045b335-f6cb-4565-acc9-27992eefb68f",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":7,
-      "datasetDetailsId":1,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/490/200/200.jpg",
+      "alt": "",
+      "tag": "kitchen"
     },
     {
       "id": 2,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/H.png?alt=media&token=b0e889e4-1a5c-4eaa-85cd-fa6705a0fbe7",
-      "description": "fav image",
-      "size": 1,
-      "datasetMasterId":7,
-      "datasetDetailsId":1,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1005/200/200.jpg",
+      "alt": "",
+      "tag": "man"
     },
     {
       "id": 3,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/K.png?alt=media&token=bf003ac6-588c-47c6-8ffb-e530e7b1516d",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":1,
-      "datasetDetailsId":2,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/180/200/200.jpg",
+      "alt": "",
+      "tag": "laptop"
     },
-     {
+    {
       "id": 4,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/logos.png?alt=media&token=3ab7cd0c-d4a9-4d9f-aea6-238943d3b793",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":1,
-      "datasetDetailsId":2,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/2/200/200.jpg",
+      "alt": "",
+      "tag": "laptop"
     },
     {
       "id": 5,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/M.png?alt=media&token=97cf96ae-7f5a-4c03-8ee9-16c4f225447d",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":2,
-      "datasetDetailsId":3,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1003/200/200.jpg",
+      "alt": "",
+      "tag": "animal"
     },
     {
       "id": 6,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/N.png?alt=media&token=46423f8d-0848-4be0-9b75-059aee8b5857",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":2,
-      "datasetDetailsId":3,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1025/200/200.jpg",
+      "alt": "",
+      "tag": "animal"
     },
-     {
+    {
       "id": 7,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/P.png?alt=media&token=04d35fea-63a5-4c59-a7d8-c24510f04f04",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":3,
-      "datasetDetailsId":16,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1012/200/200.jpg",
+      "alt": "",
+      "tag": "man"
     },
     {
       "id": 8,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/Q.png?alt=media&token=77e6a846-c9b3-405d-98c4-be516a7e009f",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":3,
-      "datasetDetailsId":17,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1011/200/200.jpg",
+      "alt": "",
+      "tag": "woman"
     },
     {
       "id": 9,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/N.png?alt=media&token=46423f8d-0848-4be0-9b75-059aee8b5857",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":5,
-      "datasetDetailsId":18,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1027/200/200.jpg",
+      "alt": "",
+      "tag": "woman"
     },
-     {
+    {
       "id": 10,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/Q.png?alt=media&token=77e6a846-c9b3-405d-98c4-be516a7e009f",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":5,
-      "datasetDetailsId":19,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1071/200/200.jpg",
+      "alt": "",
+      "tag": "car"
     },
     {
       "id": 11,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/M.png?alt=media&token=97cf96ae-7f5a-4c03-8ee9-16c4f225447d",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":6,
-      "datasetDetailsId":20,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 12,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/G.png?alt=media&token=d045b335-f6cb-4565-acc9-27992eefb68f",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":6,
-      "datasetDetailsId":15,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 13,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/H.png?alt=media&token=b0e889e4-1a5c-4eaa-85cd-fa6705a0fbe7",
-      "description": "fav image",
-      "size": 1,
-      "datasetMasterId":6,
-      "datasetDetailsId":15,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 14,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/K.png?alt=media&token=bf003ac6-588c-47c6-8ffb-e530e7b1516d",
-      "description": "shubham image",
-      "size": 1,
-      "datasetMasterId":8,
-      "datasetDetailsId":5,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1072/200/200.jpg",
+      "alt": "",
+      "tag": "car"
     }
   ],
-  "Category": [
-  {
-    "projectId": 1,
-    "categoryName": "B",
-    "active": 1,
-    "createdDate": "2/11/2019",
-    "createdBy": "Admin",
-    "isDelete": 0,
-    "deletedDate": "",
-    "deletedBy": "",
-    "id": 1
-  }
-  ],
-  "Attributes": [
-  {
-    "categoryId": 1,
-    "projectId": 1,
-    "active": 1,
-    "attributeName": "P",
-    "createdDate": "2/11/2019",
-    "createdBy": "Admin",
-    "isDelete": 0,
-    "deletedDate": "",
-    "deletedBy": "",
-    "id": 1
-   }
-  ],
-  "AttributesDetails": [],
-  "AccountInfo": [],
-  
-  "ImportImages": [
-    {
-      "projectId": 1,
-      "id": 1,
-      "uploadFilePath": "",
-      "createdDate": "25/9/2019",
-      "createdBy": "Admin",
-      "isDelete": 0,
-      "deletedDate": 0
-    }
-  ],
-  "ExportData":[
-      {
-        "id":1,
-        "key" : "json",
-        "name" : "JSON",
-        "folderName":"COCO_JSON"
-      },
-      {
-        "id":2,
-        "key" : "csv", 
-        "name" : "CSV",
-        "folderName":"CSV"
-      },
-      {
-        "id":3,
-        "key" : "xml", 
-        "name" : "XML",
-        "folderName":"VOC_XML"
-      },
-      {
-        "id":4,
-        "key" : "text", 
-        "name" : "TEXT",
-        "folderName":"YOLO_TXT"
-      }
-  ],
-  "ResourcesData": [
-   {
-     "id":1,
-     "userId": 1,
-     "objectCount": 1020,
-     "timeSpent": 8,
-     "projectId":1
-   },
-   {
-     "id":2,
-     "userId": 2,
-     "objectCount": 10000,
-     "timeSpent": 7,
-     "projectId":1
-   },
-   {
-     "id":3,
-     "userId": 3,
-     "objectCount": 17000,
-     "timeSpent": 4,
-     "projectId":2
-   },
-   {
-     "id":4,
-     "userId": 4,
-     "objectCount": 15002,
-     "timeSpent": 8,
-     "projectId":2
-   }
- ],
- "UserResourceData": [
-   {
-     "id":1,
-     "userId": 1,
-     "projectId": 1,
-     "data": [
-       {
-         "name": "Bag",
-         "value": 20
-       },
-       {
-         "name": "Bike",
-         "value": 30
-       },
-       {
-         "name": "Truck",
-         "value": 15
-       },
-       {
-         "name": "Traffic Signals",
-         "value": 40
-       },
-       {
-         "name": "Men",
-         "value": 45
-       },
-       {
-         "name": "Women",
-         "value": 35
-       }
-     ]
-   },
-   {
-     "id":2,
-     "userId": 2,
-     "projectId": 2,
-     "data": [
-       {
-         "name": "Bag",
-         "value": 10
-       },
-       {
-         "name": "Bike",
-         "value": 20
-       },
-       {
-         "name": "Truck",
-         "value": 25
-       },
-       {
-         "name": "Traffic Signals",
-         "value": 60
-       },
-       {
-         "name": "Men",
-         "value": 75
-       },
-       {
-         "name": "Women",
-         "value": 55
-       }
-     ]
-   },
-   {
-     "id":3,
-     "userId": 3,
-     "projectId": 3,
-     "data": [
-       {
-         "name": "Bag",
-         "value": 30
-       },
-       {
-         "name": "Bike",
-         "value": 20
-       },
-       {
-         "name": "Truck",
-         "value": 15
-       },
-       {
-         "name": "Traffic Signals",
-         "value": 90
-       },
-       {
-         "name": "Men",
-         "value": 85
-       },
-       {
-         "name": "Women",
-         "value": 65
-       }
-     ]
-   }
- ],
-  "ProcessingModels": [
+  "OutputImages": [
     {
       "id": 1,
-      "modelName": "Automaton AI"
+      "src": "https://i.picsum.photos/id/1079/300/300.jpg",
+      "alt": "",
+      "tag": "other"
     },
     {
       "id": 2,
-      "modelName": "Resnet V1"
+      "src": "https://i.picsum.photos/id/21/300/300.jpg",
+      "alt": "",
+      "tag": "sandal"
     },
     {
       "id": 3,
-      "modelName": "YOLO"
+      "src": "https://i.picsum.photos/id/210/300/300.jpg",
+      "alt": "",
+      "tag": "wall"
     },
     {
       "id": 4,
-      "modelName": "Mask R-CNN"
+      "src": "https://i.picsum.photos/id/201/200/200.jpg",
+      "alt": "",
+      "tag": "laptop"
     },
     {
       "id": 5,
-      "modelName": "Mask D-CNN"
-    }
-  ],
-  "Processing": [],
-
-  "ProcessingPreview":[
-    {
-      "id": 1,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/logos.png?alt=media&token=3ab7cd0c-d4a9-4d9f-aea6-238943d3b793",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":1,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 2,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/M.png?alt=media&token=97cf96ae-7f5a-4c03-8ee9-16c4f225447d",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":1,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 3,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/N.png?alt=media&token=46423f8d-0848-4be0-9b75-059aee8b5857",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":1,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-     {
-      "id": 4,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/P.png?alt=media&token=04d35fea-63a5-4c59-a7d8-c24510f04f04",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":2,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    },
-    {
-      "id": 5,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/Q.png?alt=media&token=77e6a846-c9b3-405d-98c4-be516a7e009f",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":2,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1074/300/300.jpg",
+      "alt": "",
+      "tag": "animal"
     },
     {
       "id": 6,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/N.png?alt=media&token=46423f8d-0848-4be0-9b75-059aee8b5857",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":2,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/1024/300/300.jpg",
+      "alt": "",
+      "tag": "animal"
     },
-     {
+    {
       "id": 7,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/Q.png?alt=media&token=77e6a846-c9b3-405d-98c4-be516a7e009f",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":3,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
+      "src": "https://i.picsum.photos/id/22/300/300.jpg",
+      "alt": "",
+      "tag": "man"
     },
     {
       "id": 8,
-      "url": "https://firebasestorage.googleapis.com/v0/b/portjson.appspot.com/o/M.png?alt=media&token=97cf96ae-7f5a-4c03-8ee9-16c4f225447d",
-      "description": "shubham image",
-      "size": 1,
-      "projectId":3,
-      "createdDate": "17/9/2019",
-      "createdBy": "Admin"
-    }
-  ],
-  "UserRoles":[
-    {
-      "id":1,
-      "projectId":1,
-      "roleName":"Super Admin",
-      "createdDate":"17/9/2019"
+      "src": "https://i.picsum.photos/id/258/300/300.jpg",
+      "alt": "",
+      "tag": "bird"
     },
     {
-      "id":2,
-      "projectId":1,
-      "roleName":"Project Manager",
-      "createdDate":"17/9/2019"
+      "id": 9,
+      "src": "https://i.picsum.photos/id/13/300/300.jpg",
+      "alt": "",
+      "tag": "other"
     },
     {
-      "id":3,
-      "projectId":2,
-      "roleName":"Quality Analyst",
-      "createdDate":"17/9/2019"
+      "id": 10,
+      "src": "https://i.picsum.photos/id/1070/300/300.jpg",
+      "alt": "",
+      "tag": "car"
     },
     {
-      "id":4,
-      "projectId":2,
-      "roleName":"Annotator",
-      "createdDate":"17/9/2019"
-    }
-  ],
-  "UserRoleDetails":[],
-  "UserRegistration":[],
-  "Menus":[
-    {
-      "id":1,
-      "menuName":"Projects",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0  
-    },
-    {
-      "id":2,
-      "menuName":"Dataset",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0  
-    },
-    {
-      "id":3,
-      "menuName":"Categories",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-
-    },
-    {
-      "id":4,
-      "menuName":"Processing",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0  
-    },
-    {
-      "id":5,
-      "menuName":"Annotation",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-    },
-    {
-      "id":6,
-      "menuName":"Attribute",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-    },
-    {
-      "id":7,
-      "menuName":"Time Analysis",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0   
-    },
-    {
-      "id":8,
-      "menuName":"Resources",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0   
-    },
-    {
-      "id":9,
-      "menuName":"Ststistics",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-    },
-    {
-      "id":10,
-      "menuName":"Export Data",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-    },
-    {
-      "id":11,
-      "menuName":"Import Data",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0    
-    },
-    {
-      "id":12,
-      "menuName":"System",
-      "createdDate":"17/9/2019",
-      "createdBy":"Admin",
-      "active":0   
-    }
-  ],
-  "ImportData":[],
-  "ExportSummary":[],
-  "ExportAnnotation":[],
-  "TimeAnalysis":[
-    {
-      "id":1,
-      "days":125,
-      "hours":12,
-      "minutes":30,
-      "seconds":20,
-      "projectId":"1"
-    },
-    {
-      "id":2,
-      "days":265,
-      "hours":22,
-      "minutes":50,
-      "seconds":10,
-      "projectId":"2"
-    }
-  ],
-  "Help":[
-		{
-			"id": 1,
-			"question": "Minimum Image Size?",
-			"answer": "512X512"
-		},
-		{
-			"id": 2,
-			"question": "Number of images can upload?",
-			"answer": "unlimited"
-		},
-		{
-			"id": 3,
-			"question": "Can we change the size of image",
-			"answer": "Yes"
-		}
-  ],
-  "Notification":[
-    {
-      "id":1,
-      "message":"Upadte is available"
-    },
-    {
-      "id":2,
-      "message":"You are successfully login"
-    },
-    {
-      "id":3,
-      "message":"Anotate remaining"
+      "id": 11,
+      "src": "https://i.picsum.photos/id/111/300/300.jpg",
+      "alt": "",
+      "tag": "car"
     }
   ]
 }
